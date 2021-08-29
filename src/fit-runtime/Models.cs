@@ -42,7 +42,7 @@ namespace fit_runtime
 
     public class ExecutionError
     {
-        public int Code { get; set; }
+        public string Code { get; set; }
         public string[] Stack { get; set; }
         public string[] Messages { get; set; }
     }

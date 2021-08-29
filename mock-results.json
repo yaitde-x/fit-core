@@ -1,6 +1,7 @@
 [
     {
         "lineNumber": 0,
+        "note" : "!|Karmak.ProfitMaster.Fitnesse.PMSession|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -21,12 +22,17 @@
             "pass": 0,
             "fail": 0,
             "exceptions": 0,
-            "messages": null,
+            "messages": [
+                "Initialize Fusion client...",
+                "Initializing PMSession...",
+                "This is a debug message"
+            ],
             "error": null
         }
     },
     {
         "lineNumber": 2,
+        "note" : "!|Set Test Revision History|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -43,10 +49,17 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     },
     {
-        "lineNumber": 27,
+        "lineNumber": 24,
+        "note" : "!|Set Test Attributes|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -63,10 +76,17 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     },
     {
-        "lineNumber": 31,
+        "lineNumber": 28,
+        "note" : "!|Load Setup Data|ImmediateInterbranchTransferSetup|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -83,10 +103,17 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     },
     {
-        "lineNumber": 35,
+        "lineNumber": 32,
+        "note" : "!|login user|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -112,10 +139,17 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     },
     {
-        "lineNumber": 45,
+        "lineNumber": 36,
+        "note" : "!|Set system time|04/10/2013 8:00 AM|",
         "state": {
             "connectionId": 0,
             "activeForm": "",
@@ -141,10 +175,17 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     },
     {
-        "lineNumber": 51,
+        "lineNumber": 42,
+        "note" : "!|Open Search Form|Customer|",
         "state": {
             "connectionId": 0,
             "activeForm": "Customer",
@@ -170,6 +211,275 @@
                 "value": "someguid"
             }
         ],
-        "result": null
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 46,
+        "note" : "!|Perform action|New_|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 48,
+        "note" : "!|Set Form Fields|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 52,
+        "note" : "!|Perform action|Save|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": {
+                "code" : "DB2341",
+                "stack" : [
+                    "Dbi.Create(...) : 547",
+                    "Mgr.Create(...) : 231", 
+                    "Proc.Save(...) : 2347",
+                    "OnSave(...) : 521",
+                    "MDIState.Toolbar.Click(...)"
+                ],
+                "messages" : [ "SomeField cannot be null" ]
+
+            }
+        }
+    },
+    {
+        "lineNumber": 54,
+        "note" : "!|Check|that the field|vtlVin|is in error|False|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 56,
+        "note" : "!|Inspect form fields|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 60,
+        "note" : "!|Close form with confirmation|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
+    },
+    {
+        "lineNumber": 64,
+        "note" : "!|Logout user|",
+        "state": {
+            "connectionId": 0,
+            "activeForm": "Customer",
+            "testNumber": "PAC95010-001",
+            "dataSet": "ImmediateInterbranchTransferSetup",
+            "user": "demo",
+            "userId": 1,
+            "systemTime": "2013-04-10T08:00:00"
+        },
+        "locals": [
+            {
+                "key": "businessProcess",
+                "value": {
+                    "id": 15,
+                    "description": "abc",
+                    "customer": "Trucking Co"
+                }
+            }
+        ],
+        "globals": [
+            {
+                "key": "session",
+                "value": "someguid"
+            }
+        ],
+        "result": {
+            "pass": 0,
+            "fail": 0,
+            "exceptions": 0,
+            "messages": null,
+            "error": null
+        }
     }
 ]
