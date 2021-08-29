@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fit", "fit\fit.csproj", "{145AA7A9-8C5D-47C9-A614-F224E84E4A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitSharp", "fitSharp\fitSharp.csproj", "{4484F20B-9990-4F0B-985C-054C0461BD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fit-runtime", "fit-runtime\fit-runtime.csproj", "{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145AA7A9-8C5D-47C9-A614-F224E84E4A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145AA7A9-8C5D-47C9-A614-F224E84E4A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145AA7A9-8C5D-47C9-A614-F224E84E4A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145AA7A9-8C5D-47C9-A614-F224E84E4A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4484F20B-9990-4F0B-985C-054C0461BD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4484F20B-9990-4F0B-985C-054C0461BD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4484F20B-9990-4F0B-985C-054C0461BD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4484F20B-9990-4F0B-985C-054C0461BD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

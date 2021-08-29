@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RootNamespace>fitSharp</RootNamespace>
+    <AssemblyName>fitSharp</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+</Project>
