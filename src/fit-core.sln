@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitSharp", "fitSharp\fitSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fit-runtime", "fit-runtime\fit-runtime.csproj", "{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fit-runtime-test", "fit-runtime-test\fit-runtime-test.csproj", "{F4E118D3-17CC-482D-BCE7-53AD60AAFB19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7421D74A-DC15-4CBF-BE4B-CECF447B92AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E118D3-17CC-482D-BCE7-53AD60AAFB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E118D3-17CC-482D-BCE7-53AD60AAFB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E118D3-17CC-482D-BCE7-53AD60AAFB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E118D3-17CC-482D-BCE7-53AD60AAFB19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

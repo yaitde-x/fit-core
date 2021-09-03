@@ -1,21 +1,42 @@
 [
     {
         "lineNumber": 0,
-        "note" : "!|Karmak.ProfitMaster.Fitnesse.PMSession|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "",
-            "dataSet": "",
-            "user": "",
-            "userId": 0,
-            "systemTime": "2021-08-28T12:17:15.651435Z"
-        },
-        "locals": [],
+        "latency" : 100,
+        "note": "!|Karmak.ProfitMaster.Fitnesse.PMSession|",
+        "locals": [
+            {
+                "name": "test.testNumber",
+                "value": ""
+            },
+            {
+                "name": "test.dataSet",
+                "value": ""
+            }
+        ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": ""
+            },
+            {
+                "name": "session.userId",
+                "value": 0
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2021-08-28T12:17:15.651435Z"
             }
         ],
         "result": {
@@ -32,21 +53,42 @@
     },
     {
         "lineNumber": 2,
-        "note" : "!|Set Test Revision History|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "",
-            "dataSet": "",
-            "user": "",
-            "userId": 0,
-            "systemTime": "2021-08-28T12:17:15.651815Z"
-        },
-        "locals": [],
+        "latency" : 300,
+        "note": "!|Set Test Revision History|",
+        "locals": [
+            {
+                "name": "test.testNumber",
+                "value": ""
+            },
+            {
+                "name": "test.dataSet",
+                "value": ""
+            }
+        ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": ""
+            },
+            {
+                "name": "session.userId",
+                "value": 0
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2021-08-28T12:17:15.651435Z"
             }
         ],
         "result": {
@@ -59,21 +101,42 @@
     },
     {
         "lineNumber": 24,
-        "note" : "!|Set Test Attributes|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "PAC95010-001",
-            "dataSet": "",
-            "user": "",
-            "userId": 0,
-            "systemTime": "2021-08-28T12:17:15.651823Z"
-        },
-        "locals": [],
+        "latency" : 300,
+        "note": "!|Set Test Attributes|",
+        "locals": [
+            {
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": ""
+            }
+        ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": ""
+            },
+            {
+                "name": "session.userId",
+                "value": 0
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2021-08-28T12:17:15.651435Z"
             }
         ],
         "result": {
@@ -86,21 +149,42 @@
     },
     {
         "lineNumber": 28,
-        "note" : "!|Load Setup Data|ImmediateInterbranchTransferSetup|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "",
-            "userId": 0,
-            "systemTime": "2021-08-28T12:17:15.651824Z"
-        },
-        "locals": [],
+        "latency" : 5000,
+        "note": "!|Load Setup Data|ImmediateInterbranchTransferSetup|",
+        "locals": [
+            {
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            }
+        ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": ""
+            },
+            {
+                "name": "session.userId",
+                "value": 0
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2021-08-28T12:17:15.651435Z"
             }
         ],
         "result": {
@@ -113,30 +197,54 @@
     },
     {
         "lineNumber": 32,
-        "note" : "!|login user|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2021-08-28T12:17:15.651824Z"
-        },
+        "latency" : 500,
+        "note": "!|login user|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2021-08-28T12:17:15.651435Z"
             }
         ],
         "result": {
@@ -149,30 +257,54 @@
     },
     {
         "lineNumber": 36,
-        "note" : "!|Set system time|04/10/2013 8:00 AM|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 100,
+        "note": "!|Set system time|04/10/2013 8:00 AM|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -185,30 +317,54 @@
     },
     {
         "lineNumber": 42,
-        "note" : "!|Open Search Form|Customer|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 3000,
+        "note": "!|Open Search Form|Customer|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -221,30 +377,54 @@
     },
     {
         "lineNumber": 46,
-        "note" : "!|Perform action|New_|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 2000,
+        "note": "!|Perform action|New_|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -257,30 +437,54 @@
     },
     {
         "lineNumber": 48,
-        "note" : "!|Set Form Fields|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 1000,
+        "note": "!|Set Form Fields|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc123"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -293,30 +497,54 @@
     },
     {
         "lineNumber": 52,
-        "note" : "!|Perform action|Save|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 2000,
+        "note": "!|Perform action|Save|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc123"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -325,45 +553,70 @@
             "exceptions": 0,
             "messages": null,
             "error": {
-                "code" : "DB2341",
-                "stack" : [
+                "code": "DB2341",
+                "stack": [
                     "Dbi.Create(...) : 547",
-                    "Mgr.Create(...) : 231", 
+                    "Mgr.Create(...) : 231",
                     "Proc.Save(...) : 2347",
                     "OnSave(...) : 521",
                     "MDIState.Toolbar.Click(...)"
                 ],
-                "messages" : [ "SomeField cannot be null" ]
-
+                "messages": [
+                    "SomeField cannot be null"
+                ]
             }
         }
     },
     {
         "lineNumber": 54,
-        "note" : "!|Check|that the field|vtlVin|is in error|False|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 500,
+        "note": "!|Check|that the field|vtlVin|is in error|False|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc123"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -376,30 +629,54 @@
     },
     {
         "lineNumber": 56,
-        "note" : "!|Inspect form fields|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 700,
+        "note": "!|Inspect form fields|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
+            },
+            {
+                "name": "form.businessProcess.id",
+                "value": "15"
+            },
+            {
+                "name": "form.businessProcess.description",
+                "value": "abc123"
+            },
+            {
+                "name": "form.businessProcess.customer",
+                "value": "Trucking Co"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": "Customer"
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -412,30 +689,42 @@
     },
     {
         "lineNumber": 60,
-        "note" : "!|Close form with confirmation|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 2000,
+        "note": "!|Close form with confirmation|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": "demo"
+            },
+            {
+                "name": "session.userId",
+                "value": 1
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {
@@ -448,30 +737,42 @@
     },
     {
         "lineNumber": 64,
-        "note" : "!|Logout user|",
-        "state": {
-            "connectionId": 0,
-            "activeForm": "Customer",
-            "testNumber": "PAC95010-001",
-            "dataSet": "ImmediateInterbranchTransferSetup",
-            "user": "demo",
-            "userId": 1,
-            "systemTime": "2013-04-10T08:00:00"
-        },
+        "latency" : 400,
+        "note": "!|Logout user|",
         "locals": [
             {
-                "key": "businessProcess",
-                "value": {
-                    "id": 15,
-                    "description": "abc",
-                    "customer": "Trucking Co"
-                }
+                "name": "test.testNumber",
+                "value": "PAC95010-001"
+            },
+            {
+                "name": "test.dataSet",
+                "value": "ImmediateInterbranchTransferSetup"
             }
         ],
         "globals": [
             {
-                "key": "session",
+                "name": "session.clientId",
                 "value": "someguid"
+            },
+            {
+                "name": "session.connectionId",
+                "value": 0
+            },
+            {
+                "name": "session.activeForm",
+                "value": ""
+            },
+            {
+                "name": "session.user",
+                "value": ""
+            },
+            {
+                "name": "session.userId",
+                "value": 0
+            },
+            {
+                "name": "session.systemTime",
+                "value": "2013-04-10T08:00:00"
             }
         ],
         "result": {

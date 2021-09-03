@@ -13,6 +13,10 @@ using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using System.Threading;
 using Microsoft.Extensions.Logging.Abstractions;
+using fitSharp.Parser;
+using fitSharp.Machine.Engine;
+using fitSharp.IO;
+using fitSharp.Fit.Runner;
 
 namespace fit_runtime
 {
@@ -24,16 +28,15 @@ namespace fit_runtime
 
         public FitnesseRuntime()
         {
-            State = new ApplicationState();
+            
         }
 
-        public ApplicationState State { get; private set; }
         public StateVar[] Locals { get { return _locals.ToArray(); } }
         public StateVar[] Globals { get { return _globals.ToArray(); } }
 
         public FitnesseResponse Exec(FitnesseRequest request)
         {
-            return StaticResponses.GetResponse(request.LineNumber);
+            return StaticResponses.GetResponse(request.LineNumber, request.RequestId);
         }
     }
 
@@ -73,13 +76,13 @@ namespace fit_runtime
             var request = JsonConvert.DeserializeObject<FitnesseRequest>(message);
             var response = _runTime.Exec(request);
 
-            response.Globals = response.Globals.Select(sv =>
-            {
-                if (sv.Key.Equals("session", StringComparison.OrdinalIgnoreCase))
-                    sv.Value = Id;
+            // response.Globals = response.Globals.Select(sv =>
+            // {
+            //     if (sv.Key.Equals("session", StringComparison.OrdinalIgnoreCase))
+            //         sv.Value = Id;
 
-                return sv;
-            }).ToArray();
+            //     return sv;
+            // }).ToArray();
 
             var responseBuffer = JsonConvert.SerializeObject(response);
             SendAsync(responseBuffer + "\r\n\r\n");
@@ -135,19 +138,20 @@ namespace fit_runtime
                     {
                         var message = Encoding.UTF8.GetString(buffer, 0, bufferLocation);
                         bufferLocation = 0;
-                        
+
                         Console.WriteLine("Incoming: " + message);
 
                         var request = JsonConvert.DeserializeObject<FitnesseRequest>(message);
                         var response = _fitnesseRuntime.Exec(request);
 
-                        response.Globals = response.Globals.Select(sv =>
-                        {
-                            if (sv.Key.Equals("session", StringComparison.OrdinalIgnoreCase))
-                                sv.Value = clientId.ToString();
+                        response.RequestId = request.RequestId;
+                        // response.Globals = response.Globals.Select(sv =>
+                        // {
+                        //     if (sv.Key.Equals("session", StringComparison.OrdinalIgnoreCase))
+                        //         sv.Value = clientId.ToString();
 
-                            return sv;
-                        }).ToArray();
+                        //     return sv;
+                        // }).ToArray();
 
                         var responseBuffer = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(response));
                         await stream.WriteAsync(responseBuffer);
@@ -208,6 +212,15 @@ namespace fit_runtime
 
     class Program
     {
+        static void Maintest(string[] args) {
+            var runner = new GuiRunner();
+            runner.Run(new List<string>() 
+            {
+                "-i", "/Users/sakamoto/Code/public/vscode-fit-debug/sampleWorkspace",
+                "-o", "/Users/sakamoto/Code/public/vscode-fit-debug/sampleWorkspace/out"
+            });
+        }
+
         static async Task Main(string[] args)
         {
             JsonConvert.DefaultSettings = () => new JsonSerializerSettings
